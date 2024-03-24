@@ -1,0 +1,61 @@
+body {
+background-color: #1a1a1a; /* Dark background for a rock vibe */
+color: #f2f2f2; /* Light text for contrast */
+font-family: 'Arial', sans-serif; /* Modern, clean font */
+}
+
+#main {
+max-width: 640px;
+margin: 20px auto;
+padding: 20px;
+background-color: #333; /* Slightly lighter background for the main content */
+border: 2px solid #f2f2f2; /* Border to make the content pop */
+box-shadow: 0 0 10px #f2f2f2; /* Soft glow effect */
+}
+
+#title {
+color: #ff0000; /* Bright red for a bold title */
+text-transform: uppercase; /* Makes the title stand out */
+text-align: center;
+font-size: 2em; /* Larger font size for the title */
+margin-bottom: 20px; /* Spacing below the title */
+}
+
+#img-div {
+text-align: center;
+margin-bottom: 20px; /* Spacing below the image */
+}
+
+#image {
+max-width: 100%;
+height: auto;
+max-height: 461px;
+border: 3px solid #f2f2f2; /* Adds a border around the image */
+display: block;
+}
+
+#img-caption {
+color: #f2f2f2;
+font-style: italic; /* Italicize the caption for emphasis */
+margin-top: 5px; /* Spacing above the caption */
+}
+
+#tribute-info {
+text-align: justify; /* Justifies the text for a neat appearance */
+line-height: 1.6; /* Improves readability */
+}
+
+#tribute-link {
+display: inline-block; /* Allows for margin and padding adjustments */
+background-color: #ff0000; /* Bright red to stand out */
+color: #ffffff; /* White text for readability */
+padding: 10px 20px; /* Padding for a button-like appearance */
+text-decoration: none; /* Removes underline from the link */
+margin-top: 20px; /* Spacing above the link */
+border-radius: 5px; /* Rounded corners for the link/button */
+box-shadow: 0 0 5px #f2f2f2; /* Adds a subtle glow effect */
+}
+
+#tribute-link:hover {
+background-color: #e60000; /* Darker red on hover for interaction feedback */
+}
